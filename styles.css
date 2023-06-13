@@ -5,7 +5,7 @@
 
 body {
   font-family: "Wotfard";
-  background-color: rgb(220, 220, 236);
+  background-color: rgb(255, 255, 255);
 }
 
 #wrapper {
@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  background-color: rgb(100, 100, 148);
+  background-color: #b6cfe4;
   width: 30%;
   height: 100%;
   float: left;
@@ -41,7 +41,7 @@ header {
 }
 
 main {
-  background-color: rgb(101, 103, 190);
+  background-color: #ddeaf3;
   float: right;
   width: 70%;
   height: 100%;
@@ -55,7 +55,7 @@ main {
 table {
   padding: .5em 5% .5em 5%;
   margin: .5em .5em .5em .5em;
-  background-color: rgb(220, 220, 236);
+  background-color: rgb(244, 249, 255);
   border-radius: 1em;
   display: flex;
   flex-wrap: wrap;
@@ -73,5 +73,5 @@ table {
   border-radius: 1em;
   max-width: 10em;
   height: auto;
-  background-color: rgb(101, 103, 190);
+  background-color: #b6cfe4;
 }
