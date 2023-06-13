@@ -6,3 +6,43 @@
 body {
   font-family: "Wotfard";
 }
+
+#wrapper {
+  margin: 2.5vh;
+  height: 95vh;
+  width: 90vw;
+}
+
+header {
+  background-color: rgb(100, 100, 148);
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+#selfie-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 2em;
+}
+
+main {
+  background-color: rgb(101, 103, 190);
+  float: right;
+  width: 70%;
+  height: 100%;
+}
+
+.container {
+  margin: 2em 5% 2em 5%;
+}
+
+#project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+table {
+  padding: 6em 10% 6em 10%;
+  border: 1px solid white;
+}
