@@ -5,12 +5,24 @@
 
 body {
   font-family: "Wotfard";
+  background-color: rgb(220, 220, 236);
 }
 
 #wrapper {
-  padding: 2.5vh 0 2.5vh;
+  padding: 2vh 0 2vh;
   height: 95vh;
   width: 90vw;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-anchor {
+  max-width: 3em;
+  height: auto;
+  margin: 0em 1em 0em 1em;
 }
 
 header {
@@ -18,12 +30,14 @@ header {
   width: 30%;
   height: 100%;
   float: left;
+  border-radius: 2em 0 0 2em;
 }
 
 #selfie-img {
   width: 100%;
   max-width: 400px;
-  border-radius: 2em;
+  border-radius: 25% 5%;
+  border: 4px solid white;
 }
 
 main {
@@ -31,6 +45,7 @@ main {
   float: right;
   width: 70%;
   height: 100%;
+  border-radius: 0% 2em 2em 0%;
 }
 
 .container {
@@ -38,10 +53,13 @@ main {
 }
 
 table {
-  padding: 6em 5% 6em 5%;
-  border: 1px solid white;
+  padding: .5em 5% .5em 5%;
+  margin: .5em .5em .5em .5em;
+  background-color: rgb(220, 220, 236);
+  border-radius: 1em;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   max-width: 30vh;
 }
 
@@ -51,6 +69,9 @@ table {
 }
 
 .project-image {
+  padding: .25em;
+  border-radius: 1em;
   max-width: 10em;
   height: auto;
+  background-color: rgb(101, 103, 190);
 }
