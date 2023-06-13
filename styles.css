@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "Wotfard";
+  src: local("Wotfard"), url('./assets/fonts/Wotfard-Regular.otf') format("opentype");
+}
+
+body {
+  font-family: "Wotfard";
+}
