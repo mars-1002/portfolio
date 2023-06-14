@@ -10,8 +10,8 @@ body {
   color: #071b41;
 }
 
-a {
-  padding: .25em;
+.text-anchor {
+  padding: .1em;
   background-color: rgb(255, 255, 255);
   border-radius: .25em;
   text-decoration: none;
@@ -19,13 +19,9 @@ a {
   font-size: large;
 }
 
-a:hover {
+.text-anchor:hover {
   background-color: #77b8ec;
   color: rgb(244, 249, 255);;
-}
-
-.icon-anchor, .project-image {
-  
 }
 
 header > div > h1 {
