@@ -11,17 +11,18 @@ body {
 }
 
 .text-anchor {
-  padding: .1em;
+  margin: .1em;
+  padding: .4em;
   background-color: rgb(255, 255, 255);
   border-radius: .25em;
   text-decoration: none;
-  color: #77b8ec;
+  color: #5eb1f5;
   font-size: large;
 }
 
 .text-anchor:hover {
-  background-color: #77b8ec;
-  color: rgb(244, 249, 255);;
+  background-color: #b6cfe4;
+  color: rgb(255, 255, 255);
 }
 
 header > div > h1 {
@@ -33,7 +34,7 @@ header > div > h1 {
   height: 95vh;
   width: 90vw;
   border-radius: 2.75em 2.75em 2.75em 2.75em;
-  border: 10px solid #77b8ec;
+  border: 10px solid #5eb1f5;
 }
 
 #image-container {
@@ -75,14 +76,16 @@ main {
 }
 
 table {
-  padding: .5em 1em .5em 1em;
-  margin: .5em .5em .5em .5em;
-  background-color: rgb(244, 249, 255);
+  padding: .25em 1em .25em 1em;
+  margin: .25em .5em .25em .5em;
+  border-collapse: separate;
+  border-spacing: 0 .75em;
+  background-color: rgb(255, 255, 255);
   border-radius: 1em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 30vh;
+  max-width: 15em;
 }
 
 #project-container {
@@ -96,4 +99,8 @@ table {
   max-width: 10em;
   height: auto;
   background-color: #b6cfe4;
+}
+
+.subtext-color {
+  color: #5eb1f5;
 }
