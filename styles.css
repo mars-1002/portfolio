@@ -16,13 +16,13 @@ body {
   background-color: rgb(255, 255, 255);
   border-radius: .25em;
   text-decoration: none;
-  color: #5eb1f5;
+  color: #1c8ce7;
   font-size: large;
 }
 
 .text-anchor:hover {
   background-color: #b6cfe4;
-  color: rgb(255, 255, 255);
+  color: rgb(244, 249, 255);
 }
 
 header > div > h1 {
@@ -34,7 +34,7 @@ header > div > h1 {
   height: 95vh;
   width: 90vw;
   border-radius: 2.75em 2.75em 2.75em 2.75em;
-  border: 10px solid #5eb1f5;
+  border: 10px solid #1c8ce7;
 }
 
 #image-container {
@@ -102,5 +102,5 @@ table {
 }
 
 .subtext-color {
-  color: #5eb1f5;
+  color: #1c8ce7;
 }
